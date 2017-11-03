@@ -10,7 +10,7 @@ search for error->
 direction->up`
 
 
-`LOG4J:
+* LOG4J:
 
 logger.info
 logger.fatal
@@ -19,4 +19,4 @@ logger.notify
 logger.notifyall
 logger.error
 logger.equals
-logger.tostring`
+logger.tostring
