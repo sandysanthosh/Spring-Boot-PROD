@@ -1,14 +1,27 @@
 # LOG4J-java
 
-Java Logging
+      -logging API for java.
+
+Advantage:
+
+      Quick Debugging
+      Problem Diagnosis ->  production 
+      Easy Maintenance
+      Cost and Time Savings
 
 
 #### log level:
 
+      import org.apache.log4j.*;  
+
+      private static org.apache.log4j.Logger log = Logger.getLogger(LogClass.class);  
+
+      ALL < TRACE < DEBUG < INFO < WARN < ERROR < FATAL < OFF  
+
       fatal
       error
-      info
       warn
+      info
       debug
 
 search for error-> direction->up`
